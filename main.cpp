@@ -2,36 +2,28 @@
 #include <string>
 #include <ctime>
 #include <cstdlib>
-
-
+#include "Thungry_client.h"
 using namespace std;
 int random_price();
 void testa();
+void testb();
 void read (class Thungry_client client);
-class Thungry_client{
-public:
-string name;
-double money;
-int level_of_hunger{10};
-int level_of_impatience{0};
-int rating{0};
 
-void give_5_stars();
-void order_food(string food);
-void get_angry(int price);
-void eat(int taste, int price);
-void go_to_the_restaurant(string name1, double money1);
-};
 class Tcook{
 friend class Thungry_client;
-string name;
 public:
 int cooking_level{0};
 int speed{0};
 
 int make_food(string to_do);
-void break_time();
 };
+int Tcook::make_food(string to_do){
+cout<<"I'm the cook here and i have to do "<<to_do<<endl;
+cout<<"Cooking..."<<endl;
+cout<<"Cooking..."<<endl;
+cout<<"Cooking..."<<endl;
+return(cooking_level);
+}
 ////////////////////////////////////////////////////////////////////////////////
 void Thungry_client::order_food(string food){
 cout<<"Hello i would like to order "<<food<<" , please"<<endl;

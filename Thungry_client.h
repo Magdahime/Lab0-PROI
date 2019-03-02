@@ -11,8 +11,8 @@ int rating{0};
 
 void give_5_stars();
 void order_food(std::string food);
-void get_angry(int price);
-void eat(int taste, int price);
+void get_angry();
+void eat(int taste);
 void go_to_the_restaurant(std::string name1, double money1);
 };
 #endif

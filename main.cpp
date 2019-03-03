@@ -1,7 +1,4 @@
-#include <iostream>
-#include <string>
-#include <ctime>
-#include <cstdlib>
+#include "main.h"
 #include "Thungry_client.h"
 #include "Tcook.h"
 using namespace std;

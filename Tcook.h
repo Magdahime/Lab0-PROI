@@ -1,6 +1,6 @@
 #ifndef TCOOK_H_
 #define TCOOK_H_
-#include <string>
+#include "main.h"
 class Tcook{
 public:
     std::string name;

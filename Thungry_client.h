@@ -1,6 +1,6 @@
 #ifndef THUNGRY_CLIENT_H_
 #define THUNGRY_CLIENT_H_
-#include<string>
+#include "main.h"
 class Thungry_client{
 public:
 std::string name;

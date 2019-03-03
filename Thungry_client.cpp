@@ -1,5 +1,5 @@
 #include "Thungry_client.h"
-#include <iostream>
+#include "main.h"
 int random_price();
 using namespace std;
 

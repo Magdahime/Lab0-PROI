@@ -1,7 +1,6 @@
 #include "Tcook.h"
 #include "Thungry_client.h"
-#include <string>
-#include <iostream>
+#include "main.h"
 using namespace std;
 int Tcook::make_food(std::string to_do, class Thungry_client hungry_a){
 std::cout<<"I'm the cook here and i have to do "<<to_do<<std::endl;

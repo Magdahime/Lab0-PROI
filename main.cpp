@@ -15,11 +15,11 @@ void show_me_cook(class Tcook cook);
 
 int main()
 {
-testa();
-testb();
+//testa();
+//testb();
 //testc();
-my_tip(56.88,0);
-menu_of_the_day();
+//my_tip(56.88,0);
+//menu_of_the_day();
 bug_function2();
     return 0;
 }

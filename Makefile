@@ -1,8 +1,8 @@
 #Makefile file to compile the simple restaurant project.
-CFLAGS:= -Wall --debug
+CFLAGS:= -Wall --debug -g
 
 RESTAURANT: main.o Thungry_client.o Tcook.o
-	g++ $(CFLAGS) main.o Thungry_client.o Tcook.o
+	g++ $(CFLAGS) main.o Thungry_client.o Tcook.o -o RESTAURANT
 
 main.o: main.cpp Thungry_client.h Tcook.h main.h
 	g++ $(CFLAGS) -c main.cpp
